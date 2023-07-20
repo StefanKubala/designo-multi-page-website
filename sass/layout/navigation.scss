@@ -1,16 +1,16 @@
 .navigation {
-  &__list {
+  &-list {
     display: flex;
     gap: 5rem;
   }
 
-  &__link {
+  &-link {
     text-decoration: none;
     font-size: 1.7rem;
     color: #1d1c1e;
   }
 
-  &__item {
+  &-item {
     list-style: none;
   }
 }
