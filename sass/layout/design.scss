@@ -1,0 +1,55 @@
+.design {
+  &-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 2.5rem;
+    column-gap: 3rem;
+    height: 70rem;
+    color: #fff;
+  }
+
+  &-web {
+    background-image: url(../../img/home/desktop/image-web-design-large.jpg);
+    grid-column: 1/2;
+    grid-row: 1/3;
+  }
+
+  &-app {
+    background-image: url(../../img/home/desktop/image-app-design.jpg);
+  }
+
+  &-graphic {
+    background-image: url(../../img/home/desktop/image-graphic-design.jpg);
+  }
+
+  &-card {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 1.5rem;
+    flex-direction: column;
+
+    &-heading {
+      font-size: 4rem;
+    }
+
+    &-link {
+      color: #fff;
+      font-size: 1.6rem;
+      text-decoration: none;
+
+      &::after {
+        content: url(../../img/shared/desktop/icon-right-arrow.svg);
+        color: #e7816b;
+        margin-left: 1.5rem;
+      }
+
+      &:hover,
+      &:active {
+        color: #e7816b;
+        transform: scale(1.1);
+        transition: all 0.2s;
+      }
+    }
+  }
+}

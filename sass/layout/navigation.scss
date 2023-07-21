@@ -8,9 +8,20 @@
     text-decoration: none;
     font-size: 1.7rem;
     color: #1d1c1e;
+
+    &:hover,
+    &:active {
+      color: #e7816b;
+    }
   }
 
   &-item {
     list-style: none;
+
+    &:hover,
+    &:active {
+      transform: scale(1.1) !important;
+      transition: all 0.2s;
+    }
   }
 }
