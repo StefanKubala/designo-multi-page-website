@@ -144,3 +144,26 @@ ul {
     background-color: #ece9e9;
     transform: scale(1.1);
     transition: all 0.2s; }
+
+.action-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e7816b;
+  padding: 8rem 10rem;
+  border-radius: 1.5rem;
+  background-image: url(../../img/shared/desktop/bg-pattern-call-to-action.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 65%; }
+
+.action-text-heading {
+  font-size: 4.5rem;
+  width: 40%;
+  color: #fff;
+  margin-bottom: 2rem; }
+
+.action-text-paragraph {
+  font-size: 1.7rem;
+  width: 64%;
+  color: #fff; }
