@@ -119,6 +119,21 @@ ul {
       transform: scale(1.1);
       transition: all 0.2s; }
 
+.description-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem; }
+
+.description-card {
+  text-align: center; }
+  .description-card-heading {
+    font-size: 2rem;
+    margin-top: 3rem; }
+  .description-card-text {
+    font-size: 1.5rem;
+    width: 84%;
+    margin: 3rem auto; }
+
 .btn {
   font-size: 1.6rem;
   background-color: #fff;
