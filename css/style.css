@@ -32,6 +32,9 @@ ul {
   justify-content: center;
   align-items: center; }
 
+.bold {
+  font-weight: 700; }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -134,6 +137,46 @@ ul {
     width: 84%;
     margin: 3rem auto; }
 
+.footer {
+  background-color: #1d1c1e;
+  padding: 15rem 0 6rem 0; }
+  .footer-container-top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #333136;
+    padding-bottom: 4rem; }
+  .footer-container-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem; }
+    .footer-container-bottom p {
+      color: #fff;
+      opacity: 0.5;
+      font-size: 1.4rem; }
+  .footer-logo {
+    width: 22rem;
+    height: 3rem; }
+  .footer-nav {
+    display: flex;
+    gap: 4rem; }
+    .footer-nav-social {
+      display: flex;
+      gap: 1rem;
+      list-style: none;
+      align-self: end; }
+    .footer-nav-item {
+      color: #fff;
+      list-style: none;
+      font-size: 1.6rem;
+      cursor: pointer;
+      font-weight: 400;
+      opacity: 0.8; }
+      .footer-nav-item:hover, .footer-nav-item:active {
+        color: #e7816b;
+        transform: scale(1.1) !important;
+        transition: all 0.2s;
+        opacity: 1; }
+
 .btn {
   font-size: 1.6rem;
   background-color: #fff;
@@ -155,7 +198,9 @@ ul {
   background-image: url(../../img/shared/desktop/bg-pattern-call-to-action.svg);
   background-position: right;
   background-repeat: no-repeat;
-  background-size: 65%; }
+  background-size: 65%;
+  margin-bottom: -8rem;
+  position: relative; }
 
 .action-text-heading {
   font-size: 4.5rem;

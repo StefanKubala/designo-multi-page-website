@@ -1,0 +1,57 @@
+.footer {
+  background-color: #1d1c1e;
+  padding: 15rem 0 6rem 0;
+  &-container {
+    &-top {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #333136;
+      padding-bottom: 4rem;
+    }
+
+    &-bottom {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 4rem;
+
+      & p {
+        color: #fff;
+        opacity: 0.5;
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  &-logo {
+    width: 22rem;
+    height: 3rem;
+  }
+
+  &-nav {
+    display: flex;
+    gap: 4rem;
+
+    &-social {
+      display: flex;
+      gap: 1rem;
+      list-style: none;
+      align-self: end;
+    }
+    &-item {
+      color: #fff;
+      list-style: none;
+      font-size: 1.6rem;
+      cursor: pointer;
+      font-weight: 400;
+      opacity: 0.8;
+
+      &:hover,
+      &:active {
+        color: #e7816b;
+        transform: scale(1.1) !important;
+        transition: all 0.2s;
+        opacity: 1;
+      }
+    }
+  }
+}
