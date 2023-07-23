@@ -4,8 +4,29 @@
   align-items: center;
   padding: 6rem 0;
 
+  @media only screen and (max-width: $bp-small) {
+    padding: 6rem 3rem;
+  }
+
   &-logo {
     width: 22rem;
     height: 3rem;
+  }
+
+  &-burger {
+    display: none;
+
+    @media only screen and (max-width: $bp-medium) {
+      display: block;
+    }
+  }
+
+  &-menu {
+    display: none;
+
+    &-item {
+      color: #fff;
+      text-decoration: none;
+    }
   }
 }

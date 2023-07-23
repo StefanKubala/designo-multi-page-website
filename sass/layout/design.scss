@@ -7,20 +7,54 @@
     column-gap: 3rem;
     height: 70rem;
     color: #fff;
+
+    @media only screen and (max-width: $bp-large) {
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      grid-template-rows: repeat(3, 35rem);
+    }
   }
 
   &-web {
     background-image: url(../../img/home/desktop/image-web-design-large.jpg);
     grid-column: 1/2;
     grid-row: 1/3;
+
+    @media only screen and (max-width: $bp-large) {
+      grid-row: auto;
+      background-image: url(../../img/home/tablet/image-web-design.jpg);
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      background-image: url(../../img/home/mobile/image-web-design.jpg);
+    }
   }
 
   &-app {
     background-image: url(../../img/home/desktop/image-app-design.jpg);
+
+    @media only screen and (max-width: $bp-large) {
+      background-image: url(../../img/home/tablet/image-app-design.jpg);
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      background-image: url(../../img/home/mobile/image-app-design.jpg);
+    }
   }
 
   &-graphic {
     background-image: url(../../img/home/desktop/image-graphic-design.jpg);
+
+    @media only screen and (max-width: $bp-large) {
+      background-image: url(../../img/home/tablet/image-graphic-design.jpg);
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      background-image: url(../../img/home/mobile/image-graphic-design.jpg);
+    }
   }
 
   &-card {
@@ -28,6 +62,11 @@
     background-size: 100% 100%;
     border-radius: 1.5rem;
     flex-direction: column;
+
+    @media only screen and (max-width: $bp-small) {
+      margin: 0 3rem;
+      border-radius: 2.5rem;
+    }
 
     &-heading {
       font-size: 4rem;

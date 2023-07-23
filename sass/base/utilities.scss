@@ -15,3 +15,24 @@
 .bold {
   font-weight: 700;
 }
+
+.active {
+  color: #fff;
+  font-size: 3rem;
+  position: fixed;
+  top: 12rem;
+  height: 14.75rem;
+  padding: 0 0 0 2rem;
+  width: 60%;
+  // margin-left: -5%;
+  list-style: none;
+  background-color: #1d1c1e;
+  display: -webkit-flex;
+  display: flex !important;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+}

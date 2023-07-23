@@ -17,16 +17,27 @@
 <body>
 
     <header class="header container">
-        <a href="#">
+        <a href="index.html">
             <img class="header-logo" src="img/shared/desktop/logo-dark.png" alt="logo-dark">
         </a>
         <nav class="navigation">
             <ul class="navigation-list">
-                <li class="navigation-item"><a href="#" class="navigation-link">OUR COMPANY</a></li>
+                <li class="navigation-item"><a href="company.html" class="navigation-link">OUR COMPANY</a></li>
                 <li class="navigation-item"><a href="#" class="navigation-link">LOCATIONS</a></li>
                 <li class="navigation-item"><a href="#" class="navigation-link">CONTACT</a></li>
             </ul>
         </nav>
+        <div class="header-burger"><svg width="24" height="20" xmlns="http://www.w3.org/2000/svg">
+                <g fill="#1D1C1E" fill-rule="evenodd">
+                    <path d="M0 0h24v4H0zM0 8h24v4H0zM0 16h24v4H0z"></path>
+                </g>
+            </svg>
+        </div>
+        <ul class="header-menu">
+            <li> <a class="header-menu-item" href="/about"> Our Company </a></li>
+            <li> <a class="header-menu-item" href="/locations"> Locations </a></li>
+            <li> <a class="header-menu-item" href="/contact"> Contacts </a></li>
+        </ul>
     </header>
 
     <main>
@@ -40,7 +51,7 @@
                 <a class="btn mt-big" href="#">LEARN MORE</a>
             </div>
             <div class="hero-right">
-                <img src="img/home/desktop/image-hero-phone.png" alt="image-hero-phone">
+                <img class="hero-right-img" src="img/home/desktop/image-hero-phone.png" alt="image-hero-phone">
             </div>
         </section>
         <section class="design container mb-big">
@@ -62,26 +73,39 @@
         <section class="description container mb-big">
             <div class="description-container">
                 <div class="description-card">
-                    <img src="img/home/desktop/description-1.png" alt="illustration-passionate">
-                    <h3 class="description-card-heading">PASSIONATE</h3>
-                    <p class="description-card-text">Each project starts with an in-depth brand research to ensure we
-                        only create products that serve
-                        a purpose. We merge art, design, and technology into exciting new solutions.</p>
+                    <div class="description-card-top">
+                        <img src="img/home/desktop/description-1.png" alt="illustration-passionate">
+                    </div>
+                    <div class="description-card-bottom">
+                        <h3 class="description-card-heading">PASSIONATE</h3>
+                        <p class="description-card-text">Each project starts with an in-depth brand research to ensure
+                            we
+                            only create products that serve
+                            a purpose. We merge art, design, and technology into exciting new solutions.</p>
+                    </div>
                 </div>
                 <div class="description-card">
-                    <img src="img/home/desktop/description-2.png" alt="illustration-resourceful">
-                    <h3 class="description-card-heading">RESOURCEFUL</h3>
-                    <p class="description-card-text">Everything that we do has a strategic purpose. We use an agile
-                        approach in all of our projects
-                        and value customer collaboration. It guarantees superior results that fulfill our clients’
-                        needs.</p>
+                    <div class="description-card-top">
+                        <img src="img/home/desktop/description-2.png" alt="illustration-resourceful">
+                    </div>
+                    <div class="description-card-bottom">
+                        <h3 class="description-card-heading">RESOURCEFUL</h3>
+                        <p class="description-card-text">Everything that we do has a strategic purpose. We use an agile
+                            approach in all of our projects
+                            and value customer collaboration. It guarantees superior results that fulfill our clients’
+                            needs.</p>
+                    </div>
                 </div>
                 <div class="description-card">
-                    <img src="img/home/desktop/description-3.png" alt="illustration-friendly">
-                    <h3 class="description-card-heading">FRIENDLY</h3>
-                    <p class="description-card-text">We are a group of enthusiastic folks who know how to put people
-                        first. Our success depends on our
-                        customers, and we strive to give them the best experience a company can provide.</p>
+                    <div class="description-card-top">
+                        <img src="img/home/desktop/description-3.png" alt="illustration-friendly">
+                    </div>
+                    <div class="description-card-bottom">
+                        <h3 class="description-card-heading">FRIENDLY</h3>
+                        <p class="description-card-text">We are a group of enthusiastic folks who know how to put people
+                            first. Our success depends on our
+                            customers, and we strive to give them the best experience a company can provide.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -108,9 +132,15 @@
                     <img class="footer-logo" src="img/shared/desktop/logo-light.png" alt="logo-dark">
                 </a>
                 <ul class="footer-nav">
-                    <li class="footer-nav-item">OUR COMPANY</li>
-                    <li class="footer-nav-item">LOCATIONS</li>
-                    <li class="footer-nav-item">CONTACT</li>
+                    <a class="footer-nav-link" href="company.html">
+                        <li class="footer-nav-item">OUR COMPANY</li>
+                    </a>
+                    <a class="footer-nav-link" href="#">
+                        <li class="footer-nav-item">LOCATIONS</li>
+                    </a>
+                    <a class="footer-nav-link" href="#">
+                        <li class="footer-nav-item">CONTACT</li>
+                    </a>
                 </ul>
             </div>
             <div class="footer-container-bottom">
@@ -146,6 +176,7 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
