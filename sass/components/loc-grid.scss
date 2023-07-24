@@ -1,0 +1,30 @@
+.loc-grid {
+  &-container {
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+
+    @media only screen and (max-width: $bp-large) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+      gap: 10rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      gap: 5rem;
+    }
+  }
+
+  &-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-btn {
+    background-color: #e7816b;
+    color: #fff;
+  }
+}

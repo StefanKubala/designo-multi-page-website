@@ -16,13 +16,19 @@
   &-burger {
     display: none;
 
-    @media only screen and (max-width: $bp-medium) {
+    @media only screen and (max-width: $bp-small) {
       display: block;
     }
   }
 
   &-menu {
     display: none;
+    border-radius: 1.5rem;
+    transition: all 0.3s;
+
+    &-li {
+      padding: 2rem;
+    }
 
     &-item {
       color: #fff;

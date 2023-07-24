@@ -46,9 +46,10 @@ ul {
   font-size: 3rem;
   position: fixed;
   top: 12rem;
-  height: 14.75rem;
+  height: auto;
   padding: 0 0 0 2rem;
-  width: 60%;
+  width: 91%;
+  z-index: 20;
   list-style: none;
   background-color: #1d1c1e;
   display: -webkit-flex;
@@ -73,16 +74,20 @@ ul {
     height: 3rem; }
   .header-burger {
     display: none; }
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 576px) {
       .header-burger {
         display: block; } }
   .header-menu {
-    display: none; }
+    display: none;
+    border-radius: 1.5rem;
+    transition: all 0.3s; }
+    .header-menu-li {
+      padding: 2rem; }
     .header-menu-item {
       color: #fff;
       text-decoration: none; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 576px) {
   .navigation {
     display: none; } }
 
@@ -286,6 +291,130 @@ ul {
         margin: 0 auto;
         font-size: 1.8rem; } }
 
+.about-container {
+  color: #fff; }
+
+.about-first {
+  background-color: #e7816b;
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+  height: auto;
+  border-radius: 1.5rem;
+  overflow: hidden; }
+  @media only screen and (max-width: 768px) {
+    .about-first {
+      display: flex;
+      flex-direction: column-reverse; } }
+  @media only screen and (max-width: 576px) {
+    .about-first {
+      border-radius: 0; } }
+  .about-first-heading {
+    font-size: 4.5rem;
+    margin-bottom: 3rem; }
+  .about-first-text {
+    font-size: 1.6rem; }
+  .about-first-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 12rem; }
+    @media only screen and (max-width: 768px) {
+      .about-first-left {
+        padding: 6rem; } }
+  .about-first-right {
+    background-image: url(../../img/about/desktop/image-about-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+    @media only screen and (max-width: 768px) {
+      .about-first-right {
+        background-image: url(../../img/about/tablet/image-about-hero.jpg);
+        height: 30rem; } }
+    @media only screen and (max-width: 576px) {
+      .about-first-right {
+        background-image: url(../../img/about/mobile/image-about-hero.jpg); } }
+
+.about-second {
+  background-color: #fdf3f0;
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+  height: auto;
+  border-radius: 1.5rem;
+  overflow: hidden; }
+  @media only screen and (max-width: 768px) {
+    .about-second {
+      display: flex;
+      flex-direction: column; } }
+  @media only screen and (max-width: 576px) {
+    .about-second {
+      border-radius: 0; } }
+  .about-second-heading {
+    font-size: 4.5rem;
+    margin-bottom: 3rem;
+    color: #e7816b; }
+  .about-second-text {
+    font-size: 1.6rem;
+    color: #727272; }
+  .about-second-left {
+    background-image: url(../../img/about/desktop/image-world-class-talent.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+    @media only screen and (max-width: 768px) {
+      .about-second-left {
+        background-image: url(../../img/about/tablet/image-world-class-talent.jpg);
+        height: 30rem; } }
+    @media only screen and (max-width: 576px) {
+      .about-second-left {
+        background-image: url(../../img/about/mobile/image-world-class-talent.jpg); } }
+  .about-second-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 12rem; }
+    @media only screen and (max-width: 768px) {
+      .about-second-right {
+        padding: 6rem; } }
+
+.about-third {
+  background-color: #fdf3f0;
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+  height: auto;
+  border-radius: 1.5rem;
+  overflow: hidden; }
+  @media only screen and (max-width: 768px) {
+    .about-third {
+      display: flex;
+      flex-direction: column-reverse; } }
+  @media only screen and (max-width: 576px) {
+    .about-third {
+      border-radius: 0; } }
+  .about-third-heading {
+    font-size: 4.5rem;
+    margin-bottom: 3rem;
+    color: #e7816b; }
+  .about-third-text {
+    font-size: 1.6rem;
+    color: #727272; }
+  .about-third-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 12rem; }
+    @media only screen and (max-width: 768px) {
+      .about-third-left {
+        padding: 6rem; } }
+  .about-third-right {
+    background-image: url(../../img/about/desktop/image-real-deal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+    @media only screen and (max-width: 768px) {
+      .about-third-right {
+        background-image: url(../../img/about/tablet/image-real-deal.jpg);
+        height: 30rem; } }
+    @media only screen and (max-width: 576px) {
+      .about-third-right {
+        background-image: url(../../img/about/mobile/image-real-deal.jpg); } }
+
 .footer {
   background-color: #1d1c1e;
   padding: 15rem 0 6rem 0; }
@@ -414,3 +543,26 @@ ul {
   @media only screen and (max-width: 992px) {
     .action-text-paragraph {
       width: 100%; } }
+
+.loc-grid-container {
+  display: flex;
+  justify-content: center;
+  gap: 15rem; }
+  @media only screen and (max-width: 992px) {
+    .loc-grid-container {
+      flex-direction: column;
+      align-items: center; } }
+  @media only screen and (max-width: 768px) {
+    .loc-grid-container {
+      gap: 10rem; } }
+  @media only screen and (max-width: 576px) {
+    .loc-grid-container {
+      gap: 5rem; } }
+
+.loc-grid-card {
+  display: flex;
+  flex-direction: column; }
+
+.loc-grid-btn {
+  background-color: #e7816b;
+  color: #fff; }

@@ -1,0 +1,168 @@
+.about {
+  &-container {
+    color: #fff;
+  }
+
+  &-first {
+    background-color: #e7816b;
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    height: auto;
+    border-radius: 1.5rem;
+    overflow: hidden;
+
+    @media only screen and (max-width: $bp-medium) {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      border-radius: 0;
+    }
+
+    &-heading {
+      font-size: 4.5rem;
+      margin-bottom: 3rem;
+    }
+
+    &-text {
+      font-size: 1.6rem;
+    }
+
+    &-left {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 12rem;
+
+      @media only screen and (max-width: $bp-medium) {
+        padding: 6rem;
+      }
+    }
+
+    &-right {
+      background-image: url(../../img/about/desktop/image-about-hero.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      @media only screen and (max-width: $bp-medium) {
+        background-image: url(../../img/about/tablet/image-about-hero.jpg);
+        height: 30rem;
+      }
+
+      @media only screen and (max-width: $bp-small) {
+        background-image: url(../../img/about/mobile/image-about-hero.jpg);
+      }
+    }
+  }
+
+  &-second {
+    background-color: #fdf3f0;
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    height: auto;
+    border-radius: 1.5rem;
+    overflow: hidden;
+
+    @media only screen and (max-width: $bp-medium) {
+      display: flex;
+      flex-direction: column;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      border-radius: 0;
+    }
+
+    &-heading {
+      font-size: 4.5rem;
+      margin-bottom: 3rem;
+      color: #e7816b;
+    }
+
+    &-text {
+      font-size: 1.6rem;
+      color: #727272;
+    }
+
+    &-left {
+      background-image: url(../../img/about/desktop/image-world-class-talent.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      @media only screen and (max-width: $bp-medium) {
+        background-image: url(../../img/about/tablet/image-world-class-talent.jpg);
+        height: 30rem;
+      }
+
+      @media only screen and (max-width: $bp-small) {
+        background-image: url(../../img/about/mobile/image-world-class-talent.jpg);
+      }
+    }
+
+    &-right {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 12rem;
+
+      @media only screen and (max-width: $bp-medium) {
+        padding: 6rem;
+      }
+    }
+  }
+
+  &-third {
+    background-color: #fdf3f0;
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    height: auto;
+    border-radius: 1.5rem;
+    overflow: hidden;
+
+    @media only screen and (max-width: $bp-medium) {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      border-radius: 0;
+    }
+
+    &-heading {
+      font-size: 4.5rem;
+      margin-bottom: 3rem;
+      color: #e7816b;
+    }
+
+    &-text {
+      font-size: 1.6rem;
+      color: #727272;
+    }
+
+    &-left {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 12rem;
+
+      @media only screen and (max-width: $bp-medium) {
+        padding: 6rem;
+      }
+    }
+
+    &-right {
+      background-image: url(../../img/about/desktop/image-real-deal.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      @media only screen and (max-width: $bp-medium) {
+        background-image: url(../../img/about/tablet/image-real-deal.jpg);
+        height: 30rem;
+      }
+
+      @media only screen and (max-width: $bp-small) {
+        background-image: url(../../img/about/mobile/image-real-deal.jpg);
+      }
+    }
+  }
+}
