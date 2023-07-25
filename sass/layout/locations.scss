@@ -9,6 +9,18 @@
     grid-gap: 4rem;
     grid-template-columns: repeat(3, 1fr);
     overflow: hidden;
+
+    @media only screen and (max-width: $bp-large) {
+      display: flex;
+      flex-direction: column;
+      grid-gap: 0;
+    }
+
+    &-reverse {
+      @media only screen and (max-width: $bp-large) {
+        flex-direction: column-reverse;
+      }
+    }
     &-text {
       &-ca {
         padding: 11rem;
@@ -17,6 +29,11 @@
         background-color: #fdf3f0;
         width: 100%;
         border-radius: 1.5rem;
+
+        @media only screen and (max-width: $bp-small) {
+          padding: 6rem;
+          border-radius: 0;
+        }
       }
 
       &-au {
@@ -26,6 +43,11 @@
         background-color: #fdf3f0;
         width: 100%;
         border-radius: 1.5rem;
+
+        @media only screen and (max-width: $bp-small) {
+          padding: 6rem;
+          border-radius: 0;
+        }
       }
 
       &-uk {
@@ -35,6 +57,11 @@
         background-color: #fdf3f0;
         width: 100%;
         border-radius: 1.5rem;
+
+        @media only screen and (max-width: $bp-small) {
+          padding: 6rem;
+          border-radius: 0;
+        }
       }
     }
 
@@ -42,16 +69,20 @@
       color: #e7816b;
       font-size: 3.5rem;
       margin-bottom: 2rem;
+
+      @media only screen and (max-width: $bp-small) {
+        text-align: center;
+      }
     }
 
     &-address {
       display: flex;
       gap: 4rem;
       font-size: 1.8rem;
-      &-left {
-      }
 
-      &-right {
+      @media only screen and (max-width: $bp-small) {
+        flex-direction: column;
+        text-align: center;
       }
     }
 
@@ -62,6 +93,12 @@
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 1.5rem;
+
+        @media only screen and (max-width: $bp-large) {
+          height: 40rem;
+          width: 100%;
+          border-radius: 0;
+        }
       }
 
       &-au {
@@ -70,6 +107,12 @@
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 1.5rem;
+
+        @media only screen and (max-width: $bp-large) {
+          height: 40rem;
+          width: 100%;
+          border-radius: 0;
+        }
       }
 
       &-uk {
@@ -77,6 +120,12 @@
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 1.5rem;
+
+        @media only screen and (max-width: $bp-large) {
+          height: 40rem;
+          width: 100%;
+          border-radius: 0;
+        }
       }
     }
   }
