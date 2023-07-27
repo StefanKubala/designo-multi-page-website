@@ -566,6 +566,69 @@ ul {
   width: 30%;
   align-self: flex-end; }
 
+.web-hero {
+  background-color: #e7816b;
+  text-align: center;
+  color: #fff;
+  padding: 5rem;
+  border-radius: 1.5rem;
+  background-image: url(../../img/web-design/desktop/bg-pattern-intro-web.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 80%; }
+  @media only screen and (max-width: 576px) {
+    .web-hero {
+      margin: 3rem; } }
+  .web-hero-heading {
+    font-size: 4.5rem;
+    margin-bottom: 1.5rem; }
+  .web-hero-text {
+    font-size: 1.9rem;
+    width: 42%;
+    margin: 0 auto; }
+    @media only screen and (max-width: 768px) {
+      .web-hero-text {
+        width: 80%; } }
+
+.web-grid {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(3, 1fr); }
+  @media only screen and (max-width: 992px) {
+    .web-grid {
+      grid-template-columns: auto; } }
+  @media only screen and (max-width: 576px) {
+    .web-grid {
+      justify-content: center; } }
+  .web-grid-img {
+    width: auto;
+    height: 39rem; }
+  .web-grid-card {
+    border-radius: 1.5rem;
+    overflow: hidden; }
+    @media only screen and (max-width: 992px) {
+      .web-grid-card {
+        display: flex; } }
+    @media only screen and (max-width: 576px) {
+      .web-grid-card {
+        flex-direction: column;
+        width: 50rem; } }
+    .web-grid-card-box {
+      background-color: #fdf3f0;
+      padding: 5rem;
+      text-align: center; }
+      @media only screen and (max-width: 992px) {
+        .web-grid-card-box {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; } }
+      .web-grid-card-box-heading {
+        font-size: 2rem;
+        color: #e7816b; }
+      .web-grid-card-box-text {
+        font-size: 1.6rem; }
+
 .footer {
   background-color: #1d1c1e;
   padding: 15rem 0 6rem 0; }
@@ -717,3 +780,45 @@ ul {
 .loc-grid-btn {
   background-color: #e7816b;
   color: #fff; }
+
+.bottom-grid {
+  display: grid;
+  grid-gap: 3rem;
+  grid-template-columns: repeat(2, 1fr);
+  height: 36rem; }
+  @media only screen and (max-width: 768px) {
+    .bottom-grid {
+      grid-template-columns: auto;
+      justify-content: center; } }
+  .bottom-grid-card {
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    @media only screen and (max-width: 768px) {
+      .bottom-grid-card {
+        width: 50rem; } }
+    .bottom-grid-card-app {
+      background-image: url(../../img/home/desktop/image-app-design.jpg);
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .bottom-grid-card-graphic {
+      background-image: url(../../img/home/desktop/image-graphic-design.jpg);
+      background-repeat: no-repeat;
+      background-size: cover; }
+  .bottom-grid-heading {
+    font-size: 4rem;
+    color: #fff; }
+  .bottom-grid-link {
+    color: #fff;
+    font-size: 1.6rem;
+    text-decoration: none; }
+    .bottom-grid-link::after {
+      content: url(../../img/shared/desktop/icon-right-arrow.svg);
+      color: #e7816b;
+      margin-left: 1.5rem; }
+    .bottom-grid-link:hover, .bottom-grid-link:active {
+      color: #e7816b;
+      transform: scale(1.1);
+      transition: all 0.2s; }
