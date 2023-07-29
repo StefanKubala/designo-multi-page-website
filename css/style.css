@@ -615,7 +615,7 @@ ul {
         width: 50rem; } }
     .web-grid-card-box {
       background-color: #fdf3f0;
-      padding: 5rem;
+      padding: 6rem;
       text-align: center; }
       @media only screen and (max-width: 992px) {
         .web-grid-card-box {
@@ -624,7 +624,9 @@ ul {
           justify-content: center;
           align-items: center; } }
       .web-grid-card-box-heading {
-        font-size: 2rem;
+        margin-bottom: 2rem;
+        font-size: 2.5rem;
+        letter-spacing: 0.6rem;
         color: #e7816b; }
       .web-grid-card-box-text {
         font-size: 1.6rem; }
@@ -805,6 +807,10 @@ ul {
       background-size: cover; }
     .bottom-grid-card-graphic {
       background-image: url(../../img/home/desktop/image-graphic-design.jpg);
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .bottom-grid-card-web {
+      background-image: url(../../img/home/desktop/image-web-design-small.jpg);
       background-repeat: no-repeat;
       background-size: cover; }
   .bottom-grid-heading {

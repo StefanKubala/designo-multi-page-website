@@ -61,7 +61,7 @@
       }
       &-box {
         background-color: #fdf3f0;
-        padding: 5rem;
+        padding: 6rem;
         text-align: center;
 
         @media only screen and (max-width: $bp-large) {
@@ -71,7 +71,9 @@
           align-items: center;
         }
         &-heading {
-          font-size: 2rem;
+          margin-bottom: 2rem;
+          font-size: 2.5rem;
+          letter-spacing: 0.6rem;
           color: #e7816b;
         }
 
