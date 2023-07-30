@@ -88,7 +88,7 @@
 
     &-map {
       &-ca {
-        background-image: url(../../img/locations/desktop/image-map-canada.png);
+        background-image: url(../img/locations/desktop/image-map-canada.png);
         grid-column: 3/4;
         background-repeat: no-repeat;
         background-size: cover;
@@ -102,7 +102,7 @@
       }
 
       &-au {
-        background-image: url(../../img/locations/desktop/image-map-australia.png);
+        background-image: url(../img/locations/desktop/image-map-australia.png);
         grid-column: auto;
         background-repeat: no-repeat;
         background-size: cover;
@@ -116,7 +116,7 @@
       }
 
       &-uk {
-        background-image: url(../../img/locations/desktop/image-map-united-kingdom.png);
+        background-image: url(../img/locations/desktop/image-map-united-kingdom.png);
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 1.5rem;

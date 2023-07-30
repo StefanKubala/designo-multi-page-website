@@ -204,34 +204,34 @@ ul {
       grid-template-rows: repeat(3, 35rem); } }
 
 .design-web {
-  background-image: url(../../img/home/desktop/image-web-design-large.jpg);
+  background-image: url(../img/home/desktop/image-web-design-large.jpg);
   grid-column: 1/2;
   grid-row: 1/3; }
   @media only screen and (max-width: 992px) {
     .design-web {
       grid-row: auto;
-      background-image: url(../../img/home/tablet/image-web-design.jpg); } }
+      background-image: url(../img/home/tablet/image-web-design.jpg); } }
   @media only screen and (max-width: 576px) {
     .design-web {
-      background-image: url(../../img/home/mobile/image-web-design.jpg); } }
+      background-image: url(../img/home/mobile/image-web-design.jpg); } }
 
 .design-app {
-  background-image: url(../../img/home/desktop/image-app-design.jpg); }
+  background-image: url(../img/home/desktop/image-app-design.jpg); }
   @media only screen and (max-width: 992px) {
     .design-app {
-      background-image: url(../../img/home/tablet/image-app-design.jpg); } }
+      background-image: url(../img/home/tablet/image-app-design.jpg); } }
   @media only screen and (max-width: 576px) {
     .design-app {
-      background-image: url(../../img/home/mobile/image-app-design.jpg); } }
+      background-image: url(../img/home/mobile/image-app-design.jpg); } }
 
 .design-graphic {
-  background-image: url(../../img/home/desktop/image-graphic-design.jpg); }
+  background-image: url(../img/home/desktop/image-graphic-design.jpg); }
   @media only screen and (max-width: 992px) {
     .design-graphic {
-      background-image: url(../../img/home/tablet/image-graphic-design.jpg); } }
+      background-image: url(../img/home/tablet/image-graphic-design.jpg); } }
   @media only screen and (max-width: 576px) {
     .design-graphic {
-      background-image: url(../../img/home/mobile/image-graphic-design.jpg); } }
+      background-image: url(../img/home/mobile/image-graphic-design.jpg); } }
 
 .design-card {
   background-repeat: no-repeat;
@@ -249,7 +249,7 @@ ul {
     font-size: 1.6rem;
     text-decoration: none; }
     .design-card-link::after {
-      content: url(../../img/shared/desktop/icon-right-arrow.svg);
+      content: url(../img/shared/desktop/icon-right-arrow.svg);
       color: #e7816b;
       margin-left: 1.5rem; }
     .design-card-link:hover, .design-card-link:active {
@@ -336,16 +336,16 @@ ul {
       .about-first-left {
         padding: 6rem; } }
   .about-first-right {
-    background-image: url(../../img/about/desktop/image-about-hero.jpg);
+    background-image: url(../img/about/desktop/image-about-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover; }
     @media only screen and (max-width: 768px) {
       .about-first-right {
-        background-image: url(../../img/about/tablet/image-about-hero.jpg);
+        background-image: url(../img/about/tablet/image-about-hero.jpg);
         height: 30rem; } }
     @media only screen and (max-width: 576px) {
       .about-first-right {
-        background-image: url(../../img/about/mobile/image-about-hero.jpg); } }
+        background-image: url(../img/about/mobile/image-about-hero.jpg); } }
 
 .about-second {
   background-color: #fdf3f0;
@@ -369,16 +369,16 @@ ul {
     font-size: 1.6rem;
     color: #727272; }
   .about-second-left {
-    background-image: url(../../img/about/desktop/image-world-class-talent.jpg);
+    background-image: url(../img/about/desktop/image-world-class-talent.jpg);
     background-repeat: no-repeat;
     background-size: cover; }
     @media only screen and (max-width: 768px) {
       .about-second-left {
-        background-image: url(../../img/about/tablet/image-world-class-talent.jpg);
+        background-image: url(../img/about/tablet/image-world-class-talent.jpg);
         height: 30rem; } }
     @media only screen and (max-width: 576px) {
       .about-second-left {
-        background-image: url(../../img/about/mobile/image-world-class-talent.jpg); } }
+        background-image: url(../img/about/mobile/image-world-class-talent.jpg); } }
   .about-second-right {
     display: flex;
     justify-content: center;
@@ -418,16 +418,16 @@ ul {
       .about-third-left {
         padding: 6rem; } }
   .about-third-right {
-    background-image: url(../../img/about/desktop/image-real-deal.jpg);
+    background-image: url(../img/about/desktop/image-real-deal.jpg);
     background-repeat: no-repeat;
     background-size: cover; }
     @media only screen and (max-width: 768px) {
       .about-third-right {
-        background-image: url(../../img/about/tablet/image-real-deal.jpg);
+        background-image: url(../img/about/tablet/image-real-deal.jpg);
         height: 30rem; } }
     @media only screen and (max-width: 576px) {
       .about-third-right {
-        background-image: url(../../img/about/mobile/image-real-deal.jpg); } }
+        background-image: url(../img/about/mobile/image-real-deal.jpg); } }
 
 .locations-container {
   display: grid;
@@ -495,7 +495,7 @@ ul {
         flex-direction: column;
         text-align: center; } }
   .locations-box-map-ca {
-    background-image: url(../../img/locations/desktop/image-map-canada.png);
+    background-image: url(../img/locations/desktop/image-map-canada.png);
     grid-column: 3/4;
     background-repeat: no-repeat;
     background-size: cover;
@@ -506,7 +506,7 @@ ul {
         width: 100%;
         border-radius: 0; } }
   .locations-box-map-au {
-    background-image: url(../../img/locations/desktop/image-map-australia.png);
+    background-image: url(../img/locations/desktop/image-map-australia.png);
     grid-column: auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -517,7 +517,7 @@ ul {
         width: 100%;
         border-radius: 0; } }
   .locations-box-map-uk {
-    background-image: url(../../img/locations/desktop/image-map-united-kingdom.png);
+    background-image: url(../img/locations/desktop/image-map-united-kingdom.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1.5rem; }

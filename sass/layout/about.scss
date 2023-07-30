@@ -41,17 +41,17 @@
     }
 
     &-right {
-      background-image: url(../../img/about/desktop/image-about-hero.jpg);
+      background-image: url(../img/about/desktop/image-about-hero.jpg);
       background-repeat: no-repeat;
       background-size: cover;
 
       @media only screen and (max-width: $bp-medium) {
-        background-image: url(../../img/about/tablet/image-about-hero.jpg);
+        background-image: url(../img/about/tablet/image-about-hero.jpg);
         height: 30rem;
       }
 
       @media only screen and (max-width: $bp-small) {
-        background-image: url(../../img/about/mobile/image-about-hero.jpg);
+        background-image: url(../img/about/mobile/image-about-hero.jpg);
       }
     }
   }
@@ -85,17 +85,17 @@
     }
 
     &-left {
-      background-image: url(../../img/about/desktop/image-world-class-talent.jpg);
+      background-image: url(../img/about/desktop/image-world-class-talent.jpg);
       background-repeat: no-repeat;
       background-size: cover;
 
       @media only screen and (max-width: $bp-medium) {
-        background-image: url(../../img/about/tablet/image-world-class-talent.jpg);
+        background-image: url(../img/about/tablet/image-world-class-talent.jpg);
         height: 30rem;
       }
 
       @media only screen and (max-width: $bp-small) {
-        background-image: url(../../img/about/mobile/image-world-class-talent.jpg);
+        background-image: url(../img/about/mobile/image-world-class-talent.jpg);
       }
     }
 
@@ -151,17 +151,17 @@
     }
 
     &-right {
-      background-image: url(../../img/about/desktop/image-real-deal.jpg);
+      background-image: url(../img/about/desktop/image-real-deal.jpg);
       background-repeat: no-repeat;
       background-size: cover;
 
       @media only screen and (max-width: $bp-medium) {
-        background-image: url(../../img/about/tablet/image-real-deal.jpg);
+        background-image: url(../img/about/tablet/image-real-deal.jpg);
         height: 30rem;
       }
 
       @media only screen and (max-width: $bp-small) {
-        background-image: url(../../img/about/mobile/image-real-deal.jpg);
+        background-image: url(../img/about/mobile/image-real-deal.jpg);
       }
     }
   }
