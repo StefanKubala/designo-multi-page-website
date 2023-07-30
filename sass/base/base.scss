@@ -38,3 +38,16 @@ ul {
   margin-bottom: 0 !important;
   padding-left: 0 !important;
 }
+
+.d-block {
+  display: block !important;
+}
+
+.error {
+  &-empty {
+    color: red;
+    text-align: right;
+    font-size: 1.7rem;
+    display: none;
+  }
+}

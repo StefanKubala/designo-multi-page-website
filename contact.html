@@ -51,12 +51,25 @@
                 </div>
                 <div class="contact-container-right">
                     <form class="contact-form">
-                        <input type="text" class="contact-form-name" required="" placeholder="Name">
-                        <input type="email" class="contact-form-email" required="" placeholder="Email Address">
-                        <input type="text" class="contact-form-number" required="" placeholder="Phone Number">
-                        <textarea class="contact-form-message" required="" placeholder="Your Message" cols="20"
-                            rows="5"></textarea>
-                        <button class="btn contact-btn" type="submit"> Submit </button>
+                        <input type="text" id="name" class="contact-form-name" required="" placeholder="Name">
+                        <label class="form-label form-error error-empty error-empty-name"> Name input cannot be empty
+                        </label>
+                        <input type="email" id="email" class="contact-form-email" required=""
+                            placeholder="Email Address">
+                        <label class="form-label form-error error-empty error-empty-email"> Email input cannot be empty
+                        </label>
+                        <label class="form-label form-error error-empty error-email-invalid"> Please use a valid email
+                            address </label>
+                        <input type="number" id="number" class="contact-form-number" required=""
+                            placeholder="Phone Number">
+                        <label class="form-label form-error error-empty error-empty-number"> Number input cannot be
+                            empty
+                        </label>
+                        <textarea id="textarea" class="contact-form-message" required="" placeholder="Your Message"
+                            cols="20" rows="5"></textarea>
+                        <label class="form-label form-error error-empty error-empty-textarea"> Message input cannot be
+                            empty </label>
+                        <button id="form-submit" class="btn contact-btn form-btn" type="submit"> Submit </button>
                     </form>
                 </div>
             </div>
@@ -66,17 +79,17 @@
             <div class="loc-grid-container">
                 <div class="loc-grid-card">
                     <img src="img/about/desktop/loc-grid-1.png" alt="location canada">
-                    <a class="btn loc-grid-btn" href="#">SEE LOCATION</a>
+                    <a class="btn loc-grid-btn" href="locations.html">SEE LOCATION</a>
                 </div>
 
                 <div class="loc-grid-card">
                     <img src="img/about/desktop/loc-grid-2.png" alt="location australia">
-                    <a class="btn loc-grid-btn" href="#">SEE LOCATION</a>
+                    <a class="btn loc-grid-btn" href="locations.html">SEE LOCATION</a>
                 </div>
 
                 <div class="loc-grid-card">
                     <img src="img/about/desktop/loc-grid-3.png" alt="location united kingdom">
-                    <a class="btn loc-grid-btn" href="#">SEE LOCATION</a>
+                    <a class="btn loc-grid-btn" href="locations.html">SEE LOCATION</a>
                 </div>
             </div>
         </section>

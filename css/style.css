@@ -27,6 +27,15 @@ ul {
   margin-bottom: 0 !important;
   padding-left: 0 !important; }
 
+.d-block {
+  display: block !important; }
+
+.error-empty {
+  color: red;
+  text-align: right;
+  font-size: 1.7rem;
+  display: none; }
+
 .mt-big {
   margin-top: 3rem !important; }
 
@@ -142,25 +151,30 @@ ul {
     position: relative; }
     @media only screen and (max-width: 992px) {
       .hero-right-img {
-        position: absolute;
-        top: -10rem;
-        width: 60%;
-        left: 19%;
-        display: flex;
-        justify-content: center; } }
-    @media only screen and (max-width: 768px) {
-      .hero-right-img {
-        position: absolute;
-        top: -12rem;
-        width: 84%;
-        left: 8%;
-        display: flex;
-        justify-content: center; } }
-    @media only screen and (max-width: 576px) {
-      .hero-right-img {
-        top: -13rem;
-        width: 90%;
-        left: 4%; } }
+        display: none; } }
+    .hero-right-img-smaller {
+      display: none;
+      width: 70%;
+      position: absolute;
+      top: 0rem;
+      left: 15%; }
+      @media only screen and (max-width: 992px) {
+        .hero-right-img-smaller {
+          display: block;
+          width: 55%;
+          position: absolute;
+          top: 0rem;
+          left: 22%; } }
+      @media only screen and (max-width: 768px) {
+        .hero-right-img-smaller {
+          display: block;
+          width: 70%;
+          position: absolute;
+          top: 0rem;
+          left: 15%; } }
+      @media only screen and (max-width: 576px) {
+        .hero-right-img-smaller {
+          display: block; } }
   .hero-main-heading {
     color: #fff;
     font-size: 5rem; }
@@ -561,6 +575,9 @@ ul {
   .contact-form input::placeholder,
   .contact-form textarea::placeholder {
     color: #f0ecec; }
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    outline: none; }
 
 .contact-btn {
   width: 30%;

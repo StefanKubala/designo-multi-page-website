@@ -35,9 +35,6 @@
         font-size: 1.8rem;
       }
     }
-
-    &-right {
-    }
   }
 
   &-form {
@@ -63,6 +60,11 @@
     & input::placeholder,
     textarea::placeholder {
       color: #f0ecec;
+    }
+
+    & input:focus,
+    textarea:focus {
+      outline: none;
     }
   }
 

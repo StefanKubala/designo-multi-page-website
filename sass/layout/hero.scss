@@ -39,25 +39,35 @@
     position: relative;
     &-img {
       @media only screen and (max-width: $bp-large) {
-        position: absolute;
-        top: -10rem;
-        width: 60%;
-        left: 19%;
-        display: flex;
-        justify-content: center;
+        display: none;
       }
-      @media only screen and (max-width: $bp-medium) {
+
+      &-smaller {
+        display: none;
+        width: 70%;
         position: absolute;
-        top: -12rem;
-        width: 84%;
-        left: 8%;
-        display: flex;
-        justify-content: center;
-      }
-      @media only screen and (max-width: $bp-small) {
-        top: -13rem;
-        width: 90%;
-        left: 4%;
+        top: 0rem;
+        left: 15%;
+
+        @media only screen and (max-width: $bp-large) {
+          display: block;
+          width: 55%;
+          position: absolute;
+          top: 0rem;
+          left: 22%;
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+          display: block;
+          width: 70%;
+          position: absolute;
+          top: 0rem;
+          left: 15%;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+          display: block;
+        }
       }
     }
   }
