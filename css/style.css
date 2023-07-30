@@ -204,34 +204,34 @@ ul {
       grid-template-rows: repeat(3, 35rem); } }
 
 .design-web {
-  background-image: url(../../img/home/desktop/image-web-design-large.jpg);
+  background-image: url(../img/home/desktop/image-web-design-large.jpg);
   grid-column: 1/2;
   grid-row: 1/3; }
   @media only screen and (max-width: 992px) {
     .design-web {
       grid-row: auto;
-      background-image: url(../../img/home/tablet/image-web-design.jpg); } }
+      background-image: url(../img/home/tablet/image-web-design.jpg); } }
   @media only screen and (max-width: 576px) {
     .design-web {
-      background-image: url(../../img/home/mobile/image-web-design.jpg); } }
+      background-image: url(../img/home/mobile/image-web-design.jpg); } }
 
 .design-app {
-  background-image: url(../../img/home/desktop/image-app-design.jpg); }
+  background-image: url(../img/home/desktop/image-app-design.jpg); }
   @media only screen and (max-width: 992px) {
     .design-app {
-      background-image: url(../../img/home/tablet/image-app-design.jpg); } }
+      background-image: url(../img/home/tablet/image-app-design.jpg); } }
   @media only screen and (max-width: 576px) {
     .design-app {
-      background-image: url(../../img/home/mobile/image-app-design.jpg); } }
+      background-image: url(../img/home/mobile/image-app-design.jpg); } }
 
 .design-graphic {
-  background-image: url(../../img/home/desktop/image-graphic-design.jpg); }
+  background-image: url(../img/home/desktop/image-graphic-design.jpg); }
   @media only screen and (max-width: 992px) {
     .design-graphic {
-      background-image: url(../../img/home/tablet/image-graphic-design.jpg); } }
+      background-image: url(../img/home/tablet/image-graphic-design.jpg); } }
   @media only screen and (max-width: 576px) {
     .design-graphic {
-      background-image: url(../../img/home/mobile/image-graphic-design.jpg); } }
+      background-image: url(../img/home/mobile/image-graphic-design.jpg); } }
 
 .design-card {
   background-repeat: no-repeat;
